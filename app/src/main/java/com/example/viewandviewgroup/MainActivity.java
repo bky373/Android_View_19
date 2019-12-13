@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         helloText = findViewById(R.id.hello_text);
         helloText.setTextColor(0xFFFFFF00);
-        helloText.setText("헬로우 월드");
-        helloText.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);
+        helloText.setText(helloText.getTag().toString());
+        helloText.setTextSize(TypedValue.COMPLEX_UNIT_SP,60);
     }
 }
