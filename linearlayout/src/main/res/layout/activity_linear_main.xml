@@ -11,11 +11,20 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="균등분포"/>
+        android:text="균등분포"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:onClick="buttonClick"
+        android:id="@+id/equal_button"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비균등분포" />
+        android:text="비균등분포"
+        android:textSize="30sp"
+        android:onClick="buttonClick"
+        android:id="@+id/unequal_button"/>
+
+
 
 </LinearLayout>
