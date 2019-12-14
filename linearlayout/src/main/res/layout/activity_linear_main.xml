@@ -5,25 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LinearMainActivity"
-    android:orientation="horizontal"
-    android:gravity="bottom|center_horizontal">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button_1"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button_2"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button_3"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button_4"/>
+        android:text="균등분포"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비균등분포" />
 
 </LinearLayout>
