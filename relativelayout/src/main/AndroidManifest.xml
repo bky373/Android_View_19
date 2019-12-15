@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IdMainActivity"></activity>
+        <activity android:name=".FlexibleMainActivity"></activity>
+        <activity android:name=".IdMainActivity" />
         <activity android:name=".ParentActivity" />
         <activity android:name=".RelativeMainActivity">
             <intent-filter>
