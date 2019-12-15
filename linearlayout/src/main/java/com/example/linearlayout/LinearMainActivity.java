@@ -14,16 +14,6 @@ public class LinearMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_linear_main);
     }
 
-//    public void equal_button_click(View view) {
-//        Intent intent = new Intent(getApplicationContext(), EqualActivity.class);
-//        startActivity(intent);
-//    }
-//
-//    public void unequal_button_click(View view) {
-//        Intent intent = new Intent(getApplicationContext(), UnequalActivity.class);
-//        startActivity(intent);
-//    }
-
     public void buttonClick(View view) {
         Intent intent;
         if (view.getId() == R.id.equal_button) {

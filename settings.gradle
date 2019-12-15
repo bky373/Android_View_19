@@ -1,2 +1,2 @@
-include ':app', ':linearlayout'
+include ':app', ':linearlayout', ':relativelayout'
 rootProject.name='View And ViewGroup'
